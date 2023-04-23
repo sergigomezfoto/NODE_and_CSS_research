@@ -1,0 +1,46 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+h1{
+    color:white;
+}
+#wrapperID {
+    
+    width: 802px;
+    height: 537px;
+    border: 0px solid #ffff;
+    overflow: unset;
+    position: relative;
+}
+#wrapperID::after{
+    color: white;
+    content: '↙';
+    position: relative;
+    top: -18px;
+    left: -391px;
+    font-weight: bolder;
+}
+
+a, a:hover,a:visited,span{
+    padding-top: 10px;
+ color:white;   
+}
+span{
+    text-align: left;
+    position: absolute;
+    left: 244px;
+    top: 111px;
+    font-weight: bold;
+}
